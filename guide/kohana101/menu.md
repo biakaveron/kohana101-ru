@@ -21,6 +21,7 @@
    - [Логи](basic/logs)
    - [Обработка ошибок](basic/errors)
    - [Интернационализация](basic/i18n)
+   - [Внешние библиотеки](basic/3rdparty)
 - [Работа с базами данных](database)
    - [Общие сведения](database/intro)
    - [Прямые запросы](database/query)
