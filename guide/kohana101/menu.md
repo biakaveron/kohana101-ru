@@ -3,7 +3,7 @@
    - [Требования](intro/requirements)
    - [Структура папок](intro/folders)
    - [Основные элементы](intro/files)
-   - [Модули](basic/modules)
+   - [Модули](intro/modules)
    - [Каскадная файловая система](intro/cascadefs)
    - [Автозагрузка](intro/autoload)
    - [Конфигурационные файлы](intro/config)
