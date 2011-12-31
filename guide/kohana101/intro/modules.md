@@ -1,0 +1,42 @@
+# Модули в Kohana
+
+## Описание
+
+Фреймворк Kohana предполагает модульное строение проекта. Т.е. он собирается из отдельных самостоятельных блоков, каждый
+ из которых должен решать свою задачу. Например, функции работы с базами данных выделены в модуль [Database](database).
+ В модуль может быть вынесена любая совокупность файлов, объединенная логически и функционально. Такая модульность позволяет
+ достичь большей гибкости и расширяемости, а также повышает шансы на повторное использование кода, т.к. отдельный модуль
+ можно легко использовать в других проектах.
+
+## Структура модулей
+
+В дистрибутиве по умолчанию стандартные модули Kohana лежат в директории `modules`. Структура файлов в них такова:
+
+![Содержимое директории modules](intro/moduletree.png)
+
+Каждый модуль хранится в отдельной директории, внутри которой соблюдается стандартная иерархия Kohana. Те же `classes`,
+ `views`, `config` и т.д.
+
+[!!] В принципе, папки `application` и `system` также являются модулями, только они заранее подключены к проекту и не ограничены
+ выполнением специфических действий по сравнению с модулями.
+
+## Подключение модулей
+
+Обычно место для подключения модулей - файл `application/bootstrap.php`. Обработку списка модулей осуществляет метод [Kohana::modules].
+
+    /**
+     * Enable modules. Modules are referenced by a relative or absolute path.
+     */
+    Kohana::modules(array(
+        // 'auth'       => MODPATH.'auth',       // Basic authentication
+        // 'cache'      => MODPATH.'cache',      // Caching with multiple backends
+        // 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
+        // 'database'   => MODPATH.'database',   // Database access
+        // 'image'      => MODPATH.'image',      // Image manipulation
+        // 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
+        // 'unittest'   => MODPATH.'unittest',   // Unit testing
+        // 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+        ));
+
+Это содержимое файла по умолчанию. Тут перечислены стандартные модули, но ни один из них не подключен. Для указания пути к модулям
+ используется константа `MODPATH`, определенная в файле [index.php](intro/files).
