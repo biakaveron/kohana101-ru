@@ -21,6 +21,7 @@
    - [Кеш](basic/cache)
    - [Логи](basic/logs)
    - [Обработка ошибок](basic/errors)
+   - [Профилирование](basic/profiling)
    - [Интернационализация](basic/i18n)
       - [i18n-ключи](basic/i18n/i18n)
       - [Сообщения](basic/i18n/messages)
