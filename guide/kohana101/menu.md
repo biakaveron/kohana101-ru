@@ -44,6 +44,7 @@
    - [Создание](validation/create)
    - [Правила](validation/rules)
       - [Стандартные правила Valid](validation/rules/valid)
+   - [Выполнение проверки](validation/check)
    - [Обработка ошибок](validation/errors)
       - [Перевод текста ошибки](validation/errors/i18n)
    - [Метки](validation/labels)
