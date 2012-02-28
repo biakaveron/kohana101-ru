@@ -40,6 +40,7 @@
    - [Прямые запросы](database/query)
    - [Результат](database/result)
    - [Построитель запросов](database/builder)
+   - [Класс Model_Database](database/model)
 - [Валидация](validation)
    - [Создание](validation/create)
    - [Правила](validation/rules)
