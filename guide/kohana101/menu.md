@@ -20,6 +20,8 @@
      - [Внешний запрос](basic/request/external)
    - [Ответ](basic/response)
    - [Роутинг](basic/routing)
+      - [Работа с маршрутами](basic/routing/using)
+      - [Обратная маршрутизация](basic/routing/reverse)
    - [Кеширование](basic/cache)
    - [Логирование](basic/logs)
    - [Конфигурация](basic/config)
