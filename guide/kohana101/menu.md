@@ -16,6 +16,8 @@
    - [Последовательность выполнения](basic/flow)
    - [HMVC](basic/hmvc)
    - [Запрос](basic/request)
+     - [Внутренний запрос](basic/request/internal)
+     - [Внешний запрос](basic/request/external)
    - [Ответ](basic/response)
    - [Роутинг](basic/routing)
    - [Кеширование](basic/cache)
