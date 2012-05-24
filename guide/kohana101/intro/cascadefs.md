@@ -73,5 +73,6 @@
  обратном описанному выше приоритету. Т.е. файл из `application` будет последним.
 
 [!!] Для ускорения работы результаты поиска кешируются в файловой системе. Для этого надо при [инициализации ядра](intro/settings)
- передать в [Kohana::init] параметр `caching=TRUE` (см. файл `application/bootstrap.php`)
+ передать в [Kohana::init] параметр `caching=TRUE` (см. файл `application/bootstrap.php`), либо явно установить значение
+ свойства `Kohana::$caching` в `TRUE`. 
 
