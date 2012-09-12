@@ -178,7 +178,7 @@ URI                       | Параметры маршрута                 
  Необходимо каким-либо образом выполнить внутреннюю проверку и сообщить системе, что данный маршрут надо отбросить. Вполне
  логично было бы использовать пользовательские функции для выполнения подобных проверок:
 
- Route::set('custom1', array('geo', 'static'), '<foo>(/<bar>)'); // class::static()
+	Route::set('custom1', array('geo', 'static'), '<foo>(/<bar>)'); // class::static()
 	Route::set('custom2', array($geo, 'method'), '<foo>(/<bar>)');  // $class->method()
 	Route::set('closure', function($uri) {return array(...);}, '<foo>(/<bar>)');
 
