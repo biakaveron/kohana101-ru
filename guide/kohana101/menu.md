@@ -67,3 +67,6 @@
    - [Конфигурация](auth/config)
    - [Базовые операции](auth/basic)
    - [Поиск ошибок](auth/troubleshooting)
+   - [Драйверы](auth/drivers)
+     - [File Auth](auth/file/basic)
+     - [ORM Auth](auth/orm/basic)
