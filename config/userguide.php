@@ -25,7 +25,7 @@ return array
 			'description' => 'Учебник по Kohana Framework',
 			
 			// Copyright message, shown in the footer for this module
-			'copyright' => '&copy; 2011 Russian Kohana community',
+			'copyright' => '&copy; 2011-2013 Russian Kohana community',
 		)	
 	)
 );
